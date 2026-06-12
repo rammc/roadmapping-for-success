@@ -1,0 +1,84 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 520" role="img" aria-labelledby="bcr-title bcr-desc" font-family="'JetBrains Mono','IBM Plex Mono',ui-monospace,SFMono-Regular,Menlo,monospace">
+  <title id="bcr-title">Business Capability Roadmap — worked example</title>
+  <desc id="bcr-desc">Four-quarter swimlane roadmap by business area (Sales, Marketing, Service, Platform) with capability bars and a dashed dependency arrow from Single Customer View to Self-Service Portal.</desc>
+
+  <defs>
+    <marker id="bcr-arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 Z" fill="#1C1C1A"/>
+    </marker>
+    <pattern id="bcr-grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#E8E4D8" stroke-width="0.5"/>
+    </pattern>
+  </defs>
+
+  <rect width="960" height="520" fill="#F6F4EE"/>
+  <rect width="960" height="520" fill="url(#bcr-grid)" opacity="0.6"/>
+
+  <text x="40" y="50" font-size="22" font-weight="700" fill="#1C1C1A">BUSINESS CAPABILITY ROADMAP</text>
+  <text x="40" y="74" font-size="12" fill="#6B6960">audience · executive stakeholders · solution-agnostic · capabilities only</text>
+  <line x1="40" y1="86" x2="920" y2="86" stroke="#D9D5CB" stroke-width="1"/>
+
+  <!-- Quarter headers -->
+  <g font-size="13" font-weight="700" fill="#1C1C1A">
+    <text x="240" y="120" text-anchor="middle">Q1</text>
+    <text x="430" y="120" text-anchor="middle">Q2</text>
+    <text x="620" y="120" text-anchor="middle">Q3</text>
+    <text x="810" y="120" text-anchor="middle">Q4</text>
+  </g>
+
+  <!-- Quarter dividers -->
+  <g stroke="#D9D5CB" stroke-width="1" stroke-dasharray="2,4">
+    <line x1="145" y1="130" x2="145" y2="470"/>
+    <line x1="335" y1="130" x2="335" y2="470"/>
+    <line x1="525" y1="130" x2="525" y2="470"/>
+    <line x1="715" y1="130" x2="715" y2="470"/>
+    <line x1="905" y1="130" x2="905" y2="470"/>
+  </g>
+
+  <!-- Lane labels -->
+  <g font-size="12" font-weight="700" fill="#1C1C1A">
+    <text x="40" y="178">Sales</text>
+    <text x="40" y="248">Marketing</text>
+    <text x="40" y="318">Service</text>
+    <text x="40" y="388">Platform</text>
+  </g>
+  <g stroke="#D9D5CB" stroke-width="0.5">
+    <line x1="145" y1="200" x2="905" y2="200"/>
+    <line x1="145" y1="270" x2="905" y2="270"/>
+    <line x1="145" y1="340" x2="905" y2="340"/>
+    <line x1="145" y1="410" x2="905" y2="410"/>
+  </g>
+
+  <!-- Capability bars -->
+  <!-- Sales · Guided Selling Q1-Q2 -->
+  <rect x="155" y="160" width="280" height="32" rx="16" fill="#1E55C0"/>
+  <text x="170" y="181" font-size="12" font-weight="600" fill="#F6F4EE">Guided Selling</text>
+
+  <!-- Marketing · Journey Orchestration Q2-Q3 -->
+  <rect x="345" y="230" width="280" height="32" rx="16" fill="#1E55C0"/>
+  <text x="360" y="251" font-size="12" font-weight="600" fill="#F6F4EE">Journey Orchestration</text>
+
+  <!-- Service · Self-Service Portal Q3-Q4 -->
+  <rect x="535" y="300" width="370" height="32" rx="16" fill="#1E55C0"/>
+  <text x="550" y="321" font-size="12" font-weight="600" fill="#F6F4EE">Self-Service Portal</text>
+
+  <!-- Platform · Single Customer View Q1 -->
+  <rect x="155" y="370" width="180" height="32" rx="16" fill="#13357A"/>
+  <text x="170" y="391" font-size="12" font-weight="600" fill="#F6F4EE">Single Customer View</text>
+
+  <!-- Dependency arrow: Single Customer View → Self-Service Portal -->
+  <path d="M 335 386 C 460 386, 470 316, 535 316" fill="none" stroke="#1C1C1A" stroke-width="1.2" stroke-dasharray="4,4" marker-end="url(#bcr-arrow)"/>
+  <text x="430" y="368" font-size="10" fill="#6B6960" font-style="italic">depends on</text>
+
+  <!-- Legend -->
+  <g transform="translate(40,440)" font-size="11" fill="#1C1C1A">
+    <rect x="0" y="0" width="22" height="12" rx="6" fill="#1E55C0"/>
+    <text x="30" y="10">capability</text>
+    <rect x="120" y="0" width="22" height="12" rx="6" fill="#13357A"/>
+    <text x="150" y="10">foundational</text>
+    <line x1="260" y1="6" x2="295" y2="6" stroke="#1C1C1A" stroke-width="1.2" stroke-dasharray="4,4"/>
+    <text x="305" y="10">dependency</text>
+  </g>
+
+  <text x="920" y="500" font-size="10" fill="#6B6960" text-anchor="end" font-style="italic">Roadmapping for Success · Business Capability Roadmap</text>
+</svg>

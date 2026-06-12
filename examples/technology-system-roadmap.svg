@@ -1,0 +1,142 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 580" role="img" aria-labelledby="tsr-title tsr-desc" font-family="'JetBrains Mono','IBM Plex Mono',ui-monospace,SFMono-Regular,Menlo,monospace">
+  <title id="tsr-title">Technology System Roadmap — worked example</title>
+  <desc id="tsr-desc">Four-quarter technology roadmap with swimlanes for Operations, Infrastructure, Compliance, Security and milestone blocks leading to ISO certification and Hybrid-cloud access.</desc>
+
+  <defs>
+    <marker id="tsr-arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 Z" fill="#1C1C1A"/>
+    </marker>
+    <pattern id="tsr-grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#E8E4D8" stroke-width="0.5"/>
+    </pattern>
+  </defs>
+
+  <rect width="960" height="580" fill="#F6F4EE"/>
+  <rect width="960" height="580" fill="url(#tsr-grid)" opacity="0.6"/>
+
+  <text x="40" y="50" font-size="22" font-weight="700" fill="#1C1C1A">TECHNOLOGY SYSTEM ROADMAP</text>
+  <text x="40" y="74" font-size="12" fill="#6B6960">audience · architects and delivery teams · sequencing and milestones · enablers for the business roadmap</text>
+  <line x1="40" y1="86" x2="920" y2="86" stroke="#D9D5CB" stroke-width="1"/>
+
+  <!-- Quarter flow at top -->
+  <g>
+    <circle cx="200" cy="118" r="14" fill="#1E55C0"/>
+    <text x="200" y="122" font-size="11" font-weight="700" fill="#F6F4EE" text-anchor="middle">Q1</text>
+    <circle cx="400" cy="118" r="14" fill="#1E55C0" opacity="0.85"/>
+    <text x="400" y="122" font-size="11" font-weight="700" fill="#F6F4EE" text-anchor="middle">Q2</text>
+    <circle cx="600" cy="118" r="14" fill="#1E55C0" opacity="0.7"/>
+    <text x="600" y="122" font-size="11" font-weight="700" fill="#F6F4EE" text-anchor="middle">Q3</text>
+    <circle cx="800" cy="118" r="14" fill="#1E55C0" opacity="0.55"/>
+    <text x="800" y="122" font-size="11" font-weight="700" fill="#F6F4EE" text-anchor="middle">Q4</text>
+    <line x1="214" y1="118" x2="386" y2="118" stroke="#1C1C1A" stroke-width="1" marker-end="url(#tsr-arrow)"/>
+    <line x1="414" y1="118" x2="586" y2="118" stroke="#1C1C1A" stroke-width="1" marker-end="url(#tsr-arrow)"/>
+    <line x1="614" y1="118" x2="786" y2="118" stroke="#1C1C1A" stroke-width="1" marker-end="url(#tsr-arrow)"/>
+  </g>
+
+  <!-- Quarter dividers -->
+  <g stroke="#D9D5CB" stroke-width="1" stroke-dasharray="2,4">
+    <line x1="125" y1="150" x2="125" y2="530"/>
+    <line x1="315" y1="150" x2="315" y2="530"/>
+    <line x1="505" y1="150" x2="505" y2="530"/>
+    <line x1="695" y1="150" x2="695" y2="530"/>
+    <line x1="885" y1="150" x2="885" y2="530"/>
+  </g>
+
+  <!-- Lane labels & lane backgrounds -->
+  <g>
+    <rect x="40" y="160" width="80" height="80" fill="#F8E8E0" rx="4"/>
+    <text x="80" y="205" text-anchor="middle" font-size="11" font-weight="700" fill="#1C1C1A">Operations</text>
+
+    <rect x="40" y="252" width="80" height="80" fill="#FCE8C9" rx="4"/>
+    <text x="80" y="297" text-anchor="middle" font-size="11" font-weight="700" fill="#1C1C1A">Infrastructure</text>
+
+    <rect x="40" y="344" width="80" height="80" fill="#D3EDE8" rx="4"/>
+    <text x="80" y="389" text-anchor="middle" font-size="11" font-weight="700" fill="#1C1C1A">Compliance</text>
+
+    <rect x="40" y="436" width="80" height="80" fill="#E1DEF2" rx="4"/>
+    <text x="80" y="481" text-anchor="middle" font-size="11" font-weight="700" fill="#1C1C1A">Security</text>
+  </g>
+
+  <!-- OPERATIONS lane -->
+  <g font-size="10" fill="#1C1C1A">
+    <rect x="135" y="166" width="170" height="32" fill="#F8E8E0" stroke="#C2871A" stroke-width="0.6" rx="3"/>
+    <text x="220" y="186" text-anchor="middle">Documentation audit</text>
+    <rect x="135" y="204" width="120" height="32" fill="#F8E8E0" stroke="#C2871A" stroke-width="0.6" rx="3"/>
+    <text x="195" y="224" text-anchor="middle">KB provider research</text>
+
+    <rect x="325" y="166" width="170" height="32" fill="#F8E8E0" stroke="#C2871A" stroke-width="0.6" rx="3"/>
+    <text x="410" y="186" text-anchor="middle">Migrate docs to new KB</text>
+    <rect x="325" y="204" width="170" height="32" fill="#F8E8E0" stroke="#C2871A" stroke-width="0.6" rx="3"/>
+    <text x="410" y="224" text-anchor="middle">App compatibility audit</text>
+
+    <rect x="515" y="185" width="170" height="32" fill="#F8E8E0" stroke="#C2871A" stroke-width="0.6" rx="3"/>
+    <text x="600" y="205" text-anchor="middle">Departmental QA</text>
+
+    <rect x="705" y="185" width="170" height="32" fill="#1C1C1A" rx="3"/>
+    <text x="790" y="205" text-anchor="middle" fill="#F6F4EE" font-weight="600">Internal docs consolidation</text>
+  </g>
+
+  <!-- INFRASTRUCTURE lane -->
+  <g font-size="10" fill="#1C1C1A">
+    <rect x="135" y="258" width="170" height="32" fill="#FCE8C9" stroke="#C2871A" stroke-width="0.6" rx="3"/>
+    <text x="220" y="278" text-anchor="middle">Migration timeline</text>
+
+    <rect x="325" y="258" width="170" height="32" fill="#FCE8C9" stroke="#C2871A" stroke-width="0.6" rx="3"/>
+    <text x="410" y="272" text-anchor="middle">Prepare cloud &amp; onsite</text>
+    <text x="410" y="284" text-anchor="middle">infrastructure</text>
+
+    <rect x="515" y="258" width="170" height="32" fill="#FCE8C9" stroke="#C2871A" stroke-width="0.6" rx="3"/>
+    <text x="600" y="278" text-anchor="middle">Functional validation audit</text>
+    <rect x="515" y="296" width="80" height="24" fill="#FCE8C9" stroke="#C2871A" stroke-width="0.6" rx="3"/>
+    <text x="555" y="312" text-anchor="middle">Deploy svc</text>
+    <rect x="605" y="296" width="80" height="24" fill="#FCE8C9" stroke="#C2871A" stroke-width="0.6" rx="3"/>
+    <text x="645" y="312" text-anchor="middle">Migrate assets</text>
+
+    <rect x="705" y="258" width="170" height="32" fill="#1C1C1A" rx="3"/>
+    <text x="790" y="278" text-anchor="middle" fill="#F6F4EE" font-weight="600">Hybrid cloud migration</text>
+  </g>
+
+  <!-- COMPLIANCE lane -->
+  <g font-size="10" fill="#1C1C1A">
+    <rect x="135" y="350" width="170" height="32" fill="#D3EDE8" stroke="#1E55C0" stroke-width="0.6" rx="3"/>
+    <text x="220" y="370" text-anchor="middle">Internal policy audit</text>
+
+    <rect x="325" y="350" width="170" height="32" fill="#D3EDE8" stroke="#1E55C0" stroke-width="0.6" rx="3"/>
+    <text x="410" y="370" text-anchor="middle">Document cloud risks</text>
+    <rect x="325" y="388" width="170" height="32" fill="#D3EDE8" stroke="#1E55C0" stroke-width="0.6" rx="3"/>
+    <text x="410" y="408" text-anchor="middle">Update security policies</text>
+
+    <rect x="515" y="350" width="170" height="32" fill="#D3EDE8" stroke="#1E55C0" stroke-width="0.6" rx="3"/>
+    <text x="600" y="370" text-anchor="middle">Discrepancy updates</text>
+    <rect x="515" y="388" width="170" height="32" fill="#D3EDE8" stroke="#1E55C0" stroke-width="0.6" rx="3"/>
+    <text x="600" y="408" text-anchor="middle">External audit</text>
+
+    <rect x="705" y="350" width="170" height="32" fill="#1C1C1A" rx="3"/>
+    <text x="790" y="370" text-anchor="middle" fill="#F6F4EE" font-weight="600">ISO certification</text>
+  </g>
+
+  <!-- SECURITY lane -->
+  <g font-size="10" fill="#1C1C1A">
+    <rect x="135" y="442" width="170" height="32" fill="#E1DEF2" stroke="#1E55C0" stroke-width="0.6" rx="3"/>
+    <text x="220" y="462" text-anchor="middle">3rd-party app audit</text>
+    <rect x="135" y="480" width="170" height="32" fill="#E1DEF2" stroke="#1E55C0" stroke-width="0.6" rx="3"/>
+    <text x="220" y="500" text-anchor="middle">Internal app audit</text>
+
+    <rect x="325" y="442" width="170" height="32" fill="#E1DEF2" stroke="#1E55C0" stroke-width="0.6" rx="3"/>
+    <text x="410" y="462" text-anchor="middle">Implement SSO</text>
+    <rect x="325" y="480" width="170" height="32" fill="#E1DEF2" stroke="#1E55C0" stroke-width="0.6" rx="3"/>
+    <text x="410" y="500" text-anchor="middle">SAML SSO integration</text>
+
+    <rect x="515" y="442" width="170" height="32" fill="#E1DEF2" stroke="#1E55C0" stroke-width="0.6" rx="3"/>
+    <text x="600" y="462" text-anchor="middle">Cloud NACL &amp; IAM audit</text>
+    <rect x="515" y="480" width="170" height="32" fill="#E1DEF2" stroke="#1E55C0" stroke-width="0.6" rx="3"/>
+    <text x="600" y="500" text-anchor="middle">Penetration tests</text>
+
+    <rect x="705" y="442" width="170" height="32" fill="#1C1C1A" rx="3"/>
+    <text x="790" y="462" text-anchor="middle" fill="#F6F4EE" font-weight="600">Hybrid-cloud access</text>
+  </g>
+
+  <!-- Footer -->
+  <text x="40" y="555" font-size="10" fill="#6B6960" font-style="italic">filled blocks signal Q4 milestones — outcomes the business roadmap depends on</text>
+  <text x="920" y="555" font-size="10" fill="#6B6960" text-anchor="end" font-style="italic">Roadmapping for Success · Technology System Roadmap</text>
+</svg>

@@ -1,0 +1,88 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 520" role="img" aria-labelledby="vf-title vf-desc" font-family="'JetBrains Mono','IBM Plex Mono',ui-monospace,SFMono-Regular,Menlo,monospace">
+  <title id="vf-title">Victory Fashion — as-is system landscape</title>
+  <desc id="vf-desc">Salesforce at centre-right connected via an integration layer to multiple regional ERPs. Commerce Shop, Custom Portal, and Design Tool are visibly disconnected on the left.</desc>
+
+  <defs>
+    <marker id="vf-arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 Z" fill="#1C1C1A"/>
+    </marker>
+    <pattern id="vf-grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#E8E4D8" stroke-width="0.5"/>
+    </pattern>
+  </defs>
+
+  <rect width="960" height="520" fill="#F6F4EE"/>
+  <rect width="960" height="520" fill="url(#vf-grid)" opacity="0.6"/>
+
+  <text x="40" y="50" font-size="22" font-weight="700" fill="#1C1C1A">VICTORY FASHION · AS-IS LANDSCAPE</text>
+  <text x="40" y="74" font-size="12" fill="#6B6960">the visual disconnection on the left is the point of the diagram</text>
+  <line x1="40" y1="86" x2="920" y2="86" stroke="#D9D5CB" stroke-width="1"/>
+
+  <!-- DISCONNECTED ISLANDS — left side -->
+  <g>
+    <text x="160" y="118" font-size="11" font-weight="700" fill="#C2871A" text-anchor="middle">DISCONNECTED</text>
+
+    <!-- Commerce Shop -->
+    <rect x="60" y="140" width="200" height="80" rx="6" fill="#F6F4EE" stroke="#C2871A" stroke-width="1.4" stroke-dasharray="6,3"/>
+    <text x="160" y="168" text-anchor="middle" font-size="13" font-weight="700" fill="#1C1C1A">Commerce Shop</text>
+    <text x="160" y="186" text-anchor="middle" font-size="10" fill="#6B6960">early 2000s · never touched</text>
+    <text x="160" y="202" text-anchor="middle" font-size="10" fill="#6B6960">no modern payment providers</text>
+
+    <!-- Custom Portal -->
+    <rect x="60" y="240" width="200" height="80" rx="6" fill="#F6F4EE" stroke="#C2871A" stroke-width="1.4" stroke-dasharray="6,3"/>
+    <text x="160" y="268" text-anchor="middle" font-size="13" font-weight="700" fill="#1C1C1A">Custom Portal</text>
+    <text x="160" y="286" text-anchor="middle" font-size="10" fill="#6B6960">supplier design uploads</text>
+    <text x="160" y="302" text-anchor="middle" font-size="10" fill="#6B6960">complaint management</text>
+
+    <!-- Design Tool -->
+    <rect x="60" y="340" width="200" height="80" rx="6" fill="#F6F4EE" stroke="#C2871A" stroke-width="1.4" stroke-dasharray="6,3"/>
+    <text x="160" y="368" text-anchor="middle" font-size="13" font-weight="700" fill="#1C1C1A">Design Tool</text>
+    <text x="160" y="386" text-anchor="middle" font-size="10" fill="#6B6960">3rd-party web app</text>
+    <text x="160" y="402" text-anchor="middle" font-size="10" fill="#6B6960">Victory-branded</text>
+  </g>
+
+  <!-- Connected core: Salesforce → Integration → ERPs -->
+  <g>
+    <text x="540" y="118" font-size="11" font-weight="700" fill="#1E55C0" text-anchor="middle">CONNECTED CORE</text>
+
+    <!-- Salesforce -->
+    <rect x="420" y="220" width="240" height="100" rx="6" fill="#1E55C0" stroke="#13357A" stroke-width="1.4"/>
+    <text x="540" y="252" text-anchor="middle" font-size="14" font-weight="700" fill="#F6F4EE">Salesforce CRM</text>
+    <text x="540" y="272" text-anchor="middle" font-size="11" fill="#EEF3FC">B2B management</text>
+    <text x="540" y="290" text-anchor="middle" font-size="10" fill="#EEF3FC">~11,000 department stores</text>
+    <text x="540" y="306" text-anchor="middle" font-size="10" fill="#EEF3FC">500 Victory retail stores</text>
+
+    <!-- Integration Layer -->
+    <rect x="710" y="240" width="180" height="60" rx="6" fill="#F6F4EE" stroke="#1E55C0" stroke-width="1.2"/>
+    <text x="800" y="265" text-anchor="middle" font-size="12" font-weight="700" fill="#1C1C1A">Integration Layer</text>
+    <text x="800" y="282" text-anchor="middle" font-size="10" fill="#6B6960">API · message bus</text>
+
+    <!-- Salesforce → Integration -->
+    <line x1="660" y1="270" x2="710" y2="270" stroke="#1C1C1A" stroke-width="1.4" marker-end="url(#vf-arrow)"/>
+    <text x="685" y="262" text-anchor="middle" font-size="9" fill="#6B6960">API</text>
+
+    <!-- ERPs (three) -->
+    <rect x="720" y="60" width="160" height="60" rx="6" fill="#F6F4EE" stroke="#1E55C0" stroke-width="1.2"/>
+    <text x="800" y="84" text-anchor="middle" font-size="12" font-weight="700" fill="#1C1C1A">ERP · EMEA</text>
+    <text x="800" y="102" text-anchor="middle" font-size="10" fill="#6B6960">regional, in scope</text>
+
+    <rect x="720" y="350" width="160" height="60" rx="6" fill="#F6F4EE" stroke="#1E55C0" stroke-width="1.2"/>
+    <text x="800" y="374" text-anchor="middle" font-size="12" font-weight="700" fill="#1C1C1A">ERP · APAC</text>
+    <text x="800" y="392" text-anchor="middle" font-size="10" fill="#6B6960">regional, in scope</text>
+
+    <rect x="720" y="430" width="160" height="60" rx="6" fill="#F6F4EE" stroke="#1E55C0" stroke-width="1.2"/>
+    <text x="800" y="454" text-anchor="middle" font-size="12" font-weight="700" fill="#1C1C1A">ERP · Americas</text>
+    <text x="800" y="472" text-anchor="middle" font-size="10" fill="#6B6960">regional, in scope</text>
+
+    <!-- Integration → ERPs -->
+    <line x1="800" y1="240" x2="800" y2="120" stroke="#1C1C1A" stroke-width="1.2" marker-end="url(#vf-arrow)"/>
+    <line x1="800" y1="300" x2="800" y2="350" stroke="#1C1C1A" stroke-width="1.2" marker-end="url(#vf-arrow)"/>
+    <line x1="800" y1="300" x2="800" y2="430" stroke="#1C1C1A" stroke-width="1.2" marker-end="url(#vf-arrow)"/>
+  </g>
+
+  <!-- The gap, marked -->
+  <line x1="290" y1="140" x2="290" y2="420" stroke="#C2871A" stroke-width="1" stroke-dasharray="8,4" opacity="0.5"/>
+  <text x="310" y="270" font-size="10" fill="#C2871A" font-style="italic">no integration · no shared data · no observability</text>
+
+  <text x="920" y="500" font-size="10" fill="#6B6960" text-anchor="end" font-style="italic">Roadmapping for Success · Victory Fashion · As-Is Landscape</text>
+</svg>
