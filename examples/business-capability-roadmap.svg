@@ -35,13 +35,7 @@
     <line x1="905" y1="130" x2="905" y2="470"/>
   </g>
 
-  <!-- Lane labels -->
-  <g font-size="12" font-weight="700" fill="#1C1C1A">
-    <text x="40" y="178">Sales</text>
-    <text x="40" y="248">Marketing</text>
-    <text x="40" y="318">Service</text>
-    <text x="40" y="388">Platform</text>
-  </g>
+  <!-- Lane dividers (horizontal) — lanes 130–200, 200–270, 270–340, 340–410, centres 165, 235, 305, 375 -->
   <g stroke="#D9D5CB" stroke-width="0.5">
     <line x1="145" y1="200" x2="905" y2="200"/>
     <line x1="145" y1="270" x2="905" y2="270"/>
@@ -49,26 +43,30 @@
     <line x1="145" y1="410" x2="905" y2="410"/>
   </g>
 
-  <!-- Capability bars -->
-  <!-- Sales · Guided Selling Q1-Q2 -->
-  <rect x="155" y="160" width="280" height="32" rx="16" fill="#1E55C0"/>
-  <text x="170" y="181" font-size="12" font-weight="600" fill="#F6F4EE">Guided Selling</text>
+  <!-- Lane labels (vertically aligned with bar text baselines) -->
+  <g font-size="12" font-weight="700" fill="#1C1C1A">
+    <text x="40" y="170">Sales</text>
+    <text x="40" y="240">Marketing</text>
+    <text x="40" y="310">Service</text>
+    <text x="40" y="380">Platform</text>
+  </g>
 
-  <!-- Marketing · Journey Orchestration Q2-Q3 -->
-  <rect x="345" y="230" width="280" height="32" rx="16" fill="#1E55C0"/>
-  <text x="360" y="251" font-size="12" font-weight="600" fill="#F6F4EE">Journey Orchestration</text>
+  <!-- Capability bars — vertically centred in each lane (bar height 32, centred on 165/235/305/375 → y = 149/219/289/359) -->
+  <rect x="155" y="149" width="280" height="32" rx="16" fill="#1E55C0"/>
+  <text x="170" y="170" font-size="12" font-weight="600" fill="#F6F4EE">Guided Selling</text>
 
-  <!-- Service · Self-Service Portal Q3-Q4 -->
-  <rect x="535" y="300" width="370" height="32" rx="16" fill="#1E55C0"/>
-  <text x="550" y="321" font-size="12" font-weight="600" fill="#F6F4EE">Self-Service Portal</text>
+  <rect x="345" y="219" width="280" height="32" rx="16" fill="#1E55C0"/>
+  <text x="360" y="240" font-size="12" font-weight="600" fill="#F6F4EE">Journey Orchestration</text>
 
-  <!-- Platform · Single Customer View Q1 -->
-  <rect x="155" y="370" width="180" height="32" rx="16" fill="#13357A"/>
-  <text x="170" y="391" font-size="12" font-weight="600" fill="#F6F4EE">Single Customer View</text>
+  <rect x="535" y="289" width="370" height="32" rx="16" fill="#1E55C0"/>
+  <text x="550" y="310" font-size="12" font-weight="600" fill="#F6F4EE">Self-Service Portal</text>
 
-  <!-- Dependency arrow: Single Customer View → Self-Service Portal -->
-  <path d="M 335 386 C 460 386, 470 316, 535 316" fill="none" stroke="#1C1C1A" stroke-width="1.2" stroke-dasharray="4,4" marker-end="url(#bcr-arrow)"/>
-  <text x="430" y="368" font-size="10" fill="#6B6960" font-style="italic">depends on</text>
+  <rect x="155" y="359" width="180" height="32" rx="16" fill="#13357A"/>
+  <text x="170" y="380" font-size="12" font-weight="600" fill="#F6F4EE">Single Customer View</text>
+
+  <!-- Dependency: Single Customer View (right edge 335, centre y=375) → Self-Service Portal (left edge 535, centre y=305) -->
+  <path d="M 335 375 C 460 375, 470 305, 535 305" fill="none" stroke="#1C1C1A" stroke-width="1.2" stroke-dasharray="4,4" marker-end="url(#bcr-arrow)"/>
+  <text x="430" y="356" font-size="10" fill="#6B6960" font-style="italic" text-anchor="middle">depends on</text>
 
   <!-- Legend -->
   <g transform="translate(40,440)" font-size="11" fill="#1C1C1A">

@@ -15,6 +15,7 @@ So if you're ready to sharpen your roadmap game, supercharge your planning chops
 ---
 
 **Speakers:** Christopher Ramm & Sam Wadhwani
-**Event:** Your Architect Dreamin' Helsinki 2026 · 11 & 12 June 2026
+**Latest delivery:** Your Architect Dreamin' Helsinki 2026 · 11 & 12 June 2026
+**Previously delivered at:** Your Architect Dreamin' London 2025 · Salesforce Community Events London · Salesforce Community Events Berlin
 **Format:** Hands-on, teams of 3–6, 90 minutes (2-hour variant available)
 **Audience:** Architects, product owners, delivery leads, programme managers

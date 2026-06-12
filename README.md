@@ -2,7 +2,7 @@
 
 **Elevate your stakeholder buy-in.**
 
-A complete, reusable workshop kit from the hands-on session delivered at **Your Architect Dreamin' Helsinki 2026** (11 & 12 June 2026) by **Christopher Ramm** (Salesforce CTA, Salesforce MVP Class of 2025, DCX CTO Germany @ Capgemini) and **Sam Wadhwani**.
+A complete, reusable workshop kit from the hands-on session delivered at **Your Architect Dreamin' Helsinki 2026** (11 & 12 June 2026) by **Christopher Ramm** (Salesforce CTA, Salesforce MVP Class of 2025, DCX CTO Germany @ Capgemini) and **Sam Wadhwani** (Salesforce CTA, Salesforce MVP, Chief Technical Architect @ PwC).
 
 > **Live workshop kit:** https://rammc.github.io/roadmapping-for-success/
 
@@ -52,7 +52,8 @@ Please credit "Roadmapping for Success – Christopher Ramm and Sam Wadhwani, Yo
 ## Credits
 
 - **Speakers:** Christopher Ramm and Sam Wadhwani
-- **Event:** Your Architect Dreamin' Helsinki 2026 – [https://your-architect-dreamin.com/](https://architectdreamin.com/)
+- **Latest delivery:** Your Architect Dreamin' Helsinki 2026 – [architectdreamin.com](https://architectdreamin.com/)
+- **Previously delivered at:** Your Architect Dreamin' London 2025; Salesforce Community Events in London and Berlin
 - **Sponsors of the Helsinki 2026 edition:** Elements.cloud, Trailblazer Community, EzProtect, Lucid
 
 Victory Fashion is a fictional scenario built for this workshop.
