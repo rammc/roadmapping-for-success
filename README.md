@@ -51,7 +51,7 @@ Please credit "Roadmapping for Success – Christopher Ramm and Sam Wadhwani, Yo
 
 ## Credits
 
-- **Speakers:** Christopher Ramm and Sam Wadhwani
+- **Speakers:** Christopher Ramm (Salesforce CTA, Salesforce MVP Class of 2025, DCX CTO Germany @ Capgemini) and Sam Wadhwani (Salesforce CTA, Salesforce MVP, Chief Technical Architect @ PwC)
 - **Latest delivery:** Your Architect Dreamin' Helsinki 2026 – [architectdreamin.com](https://architectdreamin.com/)
 - **Previously delivered at:** Your Architect Dreamin' London 2025; Salesforce Community Events in London and Berlin
 - **Sponsors of the Helsinki 2026 edition:** Elements.cloud, Trailblazer Community, EzProtect, Lucid
