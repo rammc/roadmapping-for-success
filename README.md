@@ -52,7 +52,7 @@ Please credit "Roadmapping for Success – Christopher Ramm and Sam Wadhwani, Yo
 ## Credits
 
 - **Speakers:** Christopher Ramm and Sam Wadhwani
-- **Event:** Your Architect Dreamin' Helsinki 2026 – https://your-architect-dreamin.com/
+- **Event:** Your Architect Dreamin' Helsinki 2026 – [https://your-architect-dreamin.com/](https://architectdreamin.com/)
 - **Sponsors of the Helsinki 2026 edition:** Elements.cloud, Trailblazer Community, EzProtect, Lucid
 
 Victory Fashion is a fictional scenario built for this workshop.
