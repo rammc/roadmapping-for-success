@@ -1,6 +1,6 @@
 # Print-ready handouts
 
-All handouts in this kit are already print-ready as markdown — they were authored with print in mind, and the GitHub Pages stylesheet applies a clean print layout when you choose "Print to PDF" from the browser.
+All handouts in this kit are already print-ready as markdown – they were authored with print in mind, and the GitHub Pages stylesheet applies a clean print layout when you choose "Print to PDF" from the browser.
 
 ## What to print
 
@@ -19,6 +19,6 @@ All handouts in this kit are already print-ready as markdown — they were autho
 
 ## Why no pre-made PDFs?
 
-Two reasons. First, the kit is meant to be remixed — pre-baked PDFs go stale the moment a facilitator changes a number. Second, GitHub renders the markdown beautifully on its own, so a separate PDF would just be a stale copy of the same content.
+Two reasons. First, the kit is meant to be remixed – pre-baked PDFs go stale the moment a facilitator changes a number. Second, GitHub renders the markdown beautifully on its own, so a separate PDF would just be a stale copy of the same content.
 
 If you make a PDF set for your own use and want to share it, open a pull request and we'll link it from here.

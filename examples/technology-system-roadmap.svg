@@ -1,5 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 580" role="img" aria-labelledby="tsr-title tsr-desc" font-family="'JetBrains Mono','IBM Plex Mono',ui-monospace,SFMono-Regular,Menlo,monospace">
-  <title id="tsr-title">Technology System Roadmap — worked example</title>
+  <title id="tsr-title">Technology System Roadmap – worked example</title>
   <desc id="tsr-desc">Four-quarter technology roadmap with swimlanes for Operations, Infrastructure, Compliance, Security and milestone blocks leading to ISO certification and Hybrid-cloud access.</desc>
 
   <defs>
@@ -137,6 +137,6 @@
   </g>
 
   <!-- Footer -->
-  <text x="40" y="555" font-size="10" fill="#6B6960" font-style="italic">filled blocks signal Q4 milestones — outcomes the business roadmap depends on</text>
+  <text x="40" y="555" font-size="10" fill="#6B6960" font-style="italic">filled blocks signal Q4 milestones – outcomes the business roadmap depends on</text>
   <text x="920" y="555" font-size="10" fill="#6B6960" text-anchor="end" font-style="italic">Roadmapping for Success · Technology System Roadmap</text>
 </svg>

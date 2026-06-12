@@ -2,7 +2,7 @@
 
 Print-ready set. Cut along the rules. Each card has a title, a 60–90 word "breaking news" narrative, and two or three facilitator prompts to read at the table.
 
-The intent of a distractor is not to make the team restart their roadmap. It is to make them **visibly adapt** it — move items, change colours, add a dependency, surface a stakeholder conversation they would otherwise have ducked.
+The intent of a distractor is not to make the team restart their roadmap. It is to make them **visibly adapt** it – move items, change colours, add a dependency, surface a stakeholder conversation they would otherwise have ducked.
 
 ## Distribution rules
 
@@ -12,7 +12,7 @@ The intent of a distractor is not to make the team restart their roadmap. It is 
 
 ---
 
-## General distractors — every team gets these
+## General distractors – every team gets these
 
 ### G1 · International tariffs
 
@@ -34,11 +34,11 @@ The intent of a distractor is not to make the team restart their roadmap. It is 
 
 - Does anything on your roadmap accelerate?
 - Does anything get paused or replaced?
-- Where does the trust pillar of Well-Architected show up on your board now — and was it visible before?
+- Where does the trust pillar of Well-Architected show up on your board now – and was it visible before?
 
 ---
 
-## Per-team distractors — one per team
+## Per-team distractors – one per team
 
 ### T1 · New technology in the market
 
@@ -72,13 +72,13 @@ The intent of a distractor is not to make the team restart their roadmap. It is 
 
 - Which items on your roadmap suddenly look under-invested? Which look over-invested?
 - How do you tell the B2B story without sounding defensive?
-- Does the audience for your roadmap change — and therefore does the *type* of roadmap need to change?
+- Does the audience for your roadmap change – and therefore does the *type* of roadmap need to change?
 
 ---
 
 ### T4 · Regulatory change: the EU AI Act
 
-**Breaking news.** The legal team has flagged that several of your AI ambitions — the personal-shopper agent, the AI-assisted design tool, the seasonal demand forecast — are likely to be classified as "limited" or "high" risk under the EU AI Act, with documentation, transparency, and human-oversight obligations attached. Compliance want a written plan within a month.
+**Breaking news.** The legal team has flagged that several of your AI ambitions – the personal-shopper agent, the AI-assisted design tool, the seasonal demand forecast – are likely to be classified as "limited" or "high" risk under the EU AI Act, with documentation, transparency, and human-oversight obligations attached. Compliance want a written plan within a month.
 
 **At your table:**
 
@@ -160,9 +160,9 @@ The intent of a distractor is not to make the team restart their roadmap. It is 
 
 ---
 
-## Final distractor (Round 2) — choose one for everybody
+## Final distractor (Round 2) – choose one for everybody
 
-The default final distractor is **T3 · New CEO with B2C focus**, dropped on every team 10 minutes before the end of build time. It is the highest-impact card in the set because it forces teams to ask whether the *audience* for the roadmap has changed — which is the real test of whether they understood the theory in Block 1.
+The default final distractor is **T3 · New CEO with B2C focus**, dropped on every team 10 minutes before the end of build time. It is the highest-impact card in the set because it forces teams to ask whether the *audience* for the roadmap has changed – which is the real test of whether they understood the theory in Block 1.
 
 Pick a different card if your room is leaning a particular way: T4 for an AI-heavy audience, T7 for a sustainability-focused one, T8 for an audience that has been ignoring constraints.
 

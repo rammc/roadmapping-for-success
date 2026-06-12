@@ -22,7 +22,7 @@ Goals:
 
 1. Launch a modern direct-to-consumer **online store**.
 2. **Modernise operations** end-to-end.
-3. **Accelerate the product cycle** — halve the time from production to sale.
+3. **Accelerate the product cycle** – halve the time from production to sale.
 
 Analysts forecast elevated demand for up to **two years**. The technology strategy has been approved by leadership and board. The CTO is now responsible for the technology roadmap. That is what your team will draft today.
 
@@ -42,7 +42,7 @@ Analysts forecast elevated demand for up to **two years**. The technology strate
 - The new online store must be built **from scratch**.
 - The CTO publicly doubts the current Salesforce CRM implementation will improve supply chain management. **Open question for the architects.**
 
-## Capabilities to consider — the raw material for your roadmap
+## Capabilities to consider – the raw material for your roadmap
 
 The CDO has signed off the following capability ambitions. Your team's job is to **select, sequence, group, and prioritise** them across quarters, with dependencies, on a roadmap of your chosen type.
 
@@ -105,7 +105,7 @@ The CDO has signed off the following capability ambitions. Your team's job is to
 
 In **roughly 45 minutes** your team will:
 
-1. Decide which **type** of roadmap you are building — capability, feature, or system — and why.
+1. Decide which **type** of roadmap you are building – capability, feature, or system – and why.
 2. Choose a **horizon** (the default is four quarters; longer is fine if you justify it).
 3. Place capabilities on swimlanes, with sequencing and at least one explicit **dependency**.
 4. Be ready to say, for every item on the board, **which business goal it serves**. No orphans.

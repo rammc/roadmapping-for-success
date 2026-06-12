@@ -33,23 +33,23 @@ Tables of **3–6 people**, ideally with a mix of architects, product owners, an
 
 ---
 
-## Block 1 — Intro & theory (0:00–0:15)
+## Block 1 – Intro & theory (0:00–0:15)
 
 ### Beat 1.1 · The hook (1 min)
 
-> **You say:** "Show of hands — who in this room has been on a programme where you saw the roadmap once, at the kick-off, and then watched it quietly vanish? Keep your hand up if it then re-appeared at the end as evidence that you delivered something different from what was planned."
+> **You say:** "Show of hands – who in this room has been on a programme where you saw the roadmap once, at the kick-off, and then watched it quietly vanish? Keep your hand up if it then re-appeared at the end as evidence that you delivered something different from what was planned."
 
 Most hands go up. That is the room you are teaching.
 
 ### Beat 1.2 · The numbers (2 min)
 
-Show the Standish Group CHAOS trend. The headline: roughly **24% of all IT projects are considered failed** [Unverified — confirm against the latest CHAOS report before you cite it on stage], with another ~50% "challenged", and the trendline across Waterfall → Agile → SAFe has not meaningfully improved.
+Show the Standish Group CHAOS trend. The headline: roughly **24% of all IT projects are considered failed** [Unverified – confirm against the latest CHAOS report before you cite it on stage], with another ~50% "challenged", and the trendline across Waterfall → Agile → SAFe has not meaningfully improved.
 
 > **You say:** "We are not going to fix this with a slide. But every failed programme we have personally seen had the same three symptoms: scope creep, mismanaged dependencies, and stakeholders who had forgotten *why* the work was being done. The cheapest insurance against all three is a roadmap people actually use."
 
 ### Beat 1.3 · What a roadmap is and is not (3 min)
 
-Two columns on the slide. Read them straight. Resist the temptation to soften the "is NOT" column — that is where the laughs and the recognition live.
+Two columns on the slide. Read them straight. Resist the temptation to soften the "is NOT" column – that is where the laughs and the recognition live.
 
 - Are: as-is → to-be · capabilities to delivery · visibility · business value · audience · single view.
 - Are NOT: SoWs · backlogs · rigid · task-oriented · detail-heavy · the answer to everything.
@@ -67,7 +67,7 @@ Show the four example SVGs in this order:
 
 ### Beat 1.5 · The traceability rule (1 min)
 
-Frame Business Capability vs Technology System along the **Salesforce Well-Architected** pillars (Trusted, Easy, Adaptable). [Unverified — confirm pillar wording at https://architect.salesforce.com/well-architected before delivery; do not quote from memory.]
+Frame Business Capability vs Technology System along the **Salesforce Well-Architected** pillars (Trusted, Easy, Adaptable). [Unverified – confirm pillar wording at https://architect.salesforce.com/well-architected before delivery; do not quote from memory.]
 
 The rule: **every line on the technology roadmap must trace back to at least one business capability**. No orphans.
 
@@ -79,7 +79,7 @@ The rule: **every line on the technology roadmap must trace back to at least one
 
 ---
 
-## Block 2 — Scenario build (0:15–0:45)
+## Block 2 – Scenario build (0:15–0:45)
 
 ### Beat 2.1 · Form teams and hand out (2 min)
 
@@ -91,27 +91,27 @@ Self-organise into teams of **3–6**. Hand out the Victory scenario. Display th
 
 Teams build. Facilitators circulate. Carry a marker but do not draw on their sheets.
 
-**Do** — at each table, ask one of these questions:
+**Do** – at each table, ask one of these questions:
 
 - "Who is the audience for this roadmap?" (If they cannot answer in one sentence, they are building the anti-pattern.)
 - "Which business goal does this line serve?" (Pick any line they have drawn.)
 - "What is your single explicit dependency?" (If they have none, they are not yet at a roadmap.)
 
-**Do not** — do not correct over-engineering. Do not point out missing items. Let the distractors do that work in Block 3.
+**Do not** – do not correct over-engineering. Do not point out missing items. Let the distractors do that work in Block 3.
 
 ### Watch-outs for Block 2
 
 - Teams will try to do everything. They will run out of time. **This is the design**, not a problem to fix.
-- Teams that finish early are wrong. Push them: "What happens to this if the CFO cuts capex by 30%?" — and they discover they have not actually thought about it.
-- If a team is silent, ask "who is the loudest stakeholder in your scenario right now?" — it usually unlocks the conversation.
+- Teams that finish early are wrong. Push them: "What happens to this if the CFO cuts capex by 30%?" – and they discover they have not actually thought about it.
+- If a team is silent, ask "who is the loudest stakeholder in your scenario right now?" – it usually unlocks the conversation.
 
 ---
 
-## Block 3 — Distractors round 1 (0:45–1:00)
+## Block 3 – Distractors round 1 (0:45–1:00)
 
 ### Beat 3.1 · The drop (2 min)
 
-Move to each table with the two General cards (G1, G2) and one Per-team card. Read the breaking-news narrative out loud at the table — do not just hand the cards over. The voicing matters.
+Move to each table with the two General cards (G1, G2) and one Per-team card. Read the breaking-news narrative out loud at the table – do not just hand the cards over. The voicing matters.
 
 > **You say (at the table):** "Breaking news. *[Read the narrative.]* You have ten minutes. What moves on your roadmap?"
 
@@ -120,18 +120,18 @@ Move to each table with the two General cards (G1, G2) and one Per-team card. Re
 Walk the room. Watch for the two failure modes:
 
 - **Teams that restart.** Stop them. "You are not redrawing the roadmap. You are showing how it absorbed this change. Put the old items in red; draw the new ones in green over the top." This is the most important coaching moment in the whole session.
-- **Teams that ignore the distractor.** "You have decided this doesn't affect the roadmap. Who do you call to confirm that, and what do you tell them?" — usually surfaces the stakeholder conversation they were avoiding.
+- **Teams that ignore the distractor.** "You have decided this doesn't affect the roadmap. Who do you call to confirm that, and what do you tell them?" – usually surfaces the stakeholder conversation they were avoiding.
 
 Teams that adapt cleanly should be told so, out loud, at the table. Confidence at this stage is fuel for the presentations.
 
 ### Watch-outs for Block 3
 
 - If you handed out the General cards on paper at the start, you robbed yourself of the drop. Hold them back.
-- Per-team cards should be **genuinely different** per team — that is what makes the presentations interesting in Block 5.
+- Per-team cards should be **genuinely different** per team – that is what makes the presentations interesting in Block 5.
 
 ---
 
-## Block 4 — Final distractor (1:00–1:10)
+## Block 4 – Final distractor (1:00–1:10)
 
 ### Beat 4.1 · The curveball (2 min)
 
@@ -146,19 +146,19 @@ The teaching point lands in this block. Teams with capability-first roadmaps ada
 ### Watch-outs for Block 4
 
 - The eight minutes is short on purpose. Real stakeholder change is also short. Resist requests to extend.
-- Some teams will get more out of the discussion than out of the redraw. That is fine — make sure they nominate one person to articulate the *thinking* in the presentations.
+- Some teams will get more out of the discussion than out of the redraw. That is fine – make sure they nominate one person to articulate the *thinking* in the presentations.
 
 ---
 
-## Block 5 — Team presentations (1:10–1:25)
+## Block 5 – Team presentations (1:10–1:25)
 
 ### Beat 5.1 · The frame (1 min)
 
-> **You say:** "Two minutes per team. Tell us: which roadmap type did you build, who is the audience, and — the important one — *how did your roadmap change as the world moved on you?* Save the original layout for last."
+> **You say:** "Two minutes per team. Tell us: which roadmap type did you build, who is the audience, and – the important one – *how did your roadmap change as the world moved on you?* Save the original layout for last."
 
 ### Beat 5.2 · Presentations (rotate, ~2 min per team)
 
-For a room of six teams, this is 12 minutes plus rotation overhead — you will be tight. For larger rooms, ask teams to nominate one representative and run a "speed round" of 60 seconds.
+For a room of six teams, this is 12 minutes plus rotation overhead – you will be tight. For larger rooms, ask teams to nominate one representative and run a "speed round" of 60 seconds.
 
 ### Beat 5.3 · The rubric
 
@@ -178,7 +178,7 @@ Score informally in your head against four criteria. Call out a team that did on
 
 ---
 
-## Block 6 — Close & harvest (1:25–1:30)
+## Block 6 – Close & harvest (1:25–1:30)
 
 ### Beat 6.1 · The takeaway
 
@@ -186,27 +186,27 @@ Score informally in your head against four criteria. Call out a team that did on
 
 ### Beat 6.2 · The harvest
 
-Three quick prompts to the room — single-sentence answers, popcorn-style:
+Three quick prompts to the room – single-sentence answers, popcorn-style:
 
 1. "One thing you'll do differently in your next roadmap."
 2. "One thing this session got wrong about your reality."
 3. "One distractor we should add for next time."
 
-Note the third one — it is how the kit gets better.
+Note the third one – it is how the kit gets better.
 
 ### Beat 6.3 · The handoff
 
-Point everyone at https://github.com/rammc/roadmapping-for-success — the kit is theirs to run with their own teams. CC BY 4.0; attribution welcome; tell us where you ran it.
+Point everyone at https://github.com/rammc/roadmapping-for-success – the kit is theirs to run with their own teams. CC BY 4.0; attribution welcome; tell us where you ran it.
 
 ---
 
-## Appendix A — Flex & contingency
+## Appendix A – Flex & contingency
 
 ### If you are short on time
 
 - Skip Beats 1.1 and 1.2; start at "What a roadmap is and is not". Saves 3 minutes.
 - Drop Block 4 entirely; run the General + Per-team distractors as your only round. Saves 10 minutes.
-- Run Block 5 as a "share-out" — one nomination from the room per criterion — instead of full team presentations. Saves up to 10 minutes.
+- Run Block 5 as a "share-out" – one nomination from the room per criterion – instead of full team presentations. Saves up to 10 minutes.
 
 ### If you have extra time
 
@@ -219,11 +219,11 @@ Point everyone at https://github.com/rammc/roadmapping-for-success — the kit i
 
 ### If a team is over-confident
 
-- Drop a second per-team distractor on them quietly. Usually T7 or T8 — the ones that require an honest conversation about cuts.
+- Drop a second per-team distractor on them quietly. Usually T7 or T8 – the ones that require an honest conversation about cuts.
 
 ---
 
-## Appendix B — Watch-outs for the whole session
+## Appendix B – Watch-outs for the whole session
 
 - **Do not facilitate from the front during Block 2.** The session belongs to the tables once you have handed out the scenario. Front-of-room facilitation in Block 2 produces front-of-room roadmaps.
 - **Track time on a visible clock.** Build time is the load-bearing variable. Everything else can flex.
@@ -232,7 +232,7 @@ Point everyone at https://github.com/rammc/roadmapping-for-success — the kit i
 
 ---
 
-## Appendix C — 2-hour variant
+## Appendix C – 2-hour variant
 
 For 120 minutes, expand the build phase and the presentations. Suggested split:
 
@@ -245,11 +245,11 @@ For 120 minutes, expand the build phase and the presentations. Suggested split:
 | 5 | Team presentations | 1:30–1:55 | 1:55 |
 | 6 | Close & harvest | 1:55–2:00 | 2:00 |
 
-Use the extra time in Block 5 to score teams against the full rubric out loud — the public scoring is the strongest teaching moment in the longer format.
+Use the extra time in Block 5 to score teams against the full rubric out loud – the public scoring is the strongest teaching moment in the longer format.
 
 ---
 
-## Appendix D — What to bring home
+## Appendix D – What to bring home
 
 After the session, send participants:
 
@@ -257,4 +257,4 @@ After the session, send participants:
 - A note inviting issues and pull requests with their own distractors (see Beat 6.2).
 - The four example SVGs as standalone files (in `/examples`).
 
-If you adapted the kit, fork it. If you improved it, open a pull request — that is the whole point.
+If you adapted the kit, fork it. If you improved it, open a pull request – that is the whole point.

@@ -1,5 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 560" role="img" aria-labelledby="bfr-title bfr-desc" font-family="'JetBrains Mono','IBM Plex Mono',ui-monospace,SFMono-Regular,Menlo,monospace">
-  <title id="bfr-title">Business Feature Roadmap — worked example</title>
+  <title id="bfr-title">Business Feature Roadmap – worked example</title>
   <desc id="bfr-desc">Gantt-style feature roadmap across four quarters with on-track and at-risk colour coding and dependency arrows linking Identity and SSO, Case deflection bot, and Entitlement checks.</desc>
 
   <defs>

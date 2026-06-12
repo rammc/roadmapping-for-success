@@ -1,5 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 520" role="img" aria-labelledby="bcr-title bcr-desc" font-family="'JetBrains Mono','IBM Plex Mono',ui-monospace,SFMono-Regular,Menlo,monospace">
-  <title id="bcr-title">Business Capability Roadmap — worked example</title>
+  <title id="bcr-title">Business Capability Roadmap – worked example</title>
   <desc id="bcr-desc">Four-quarter swimlane roadmap by business area (Sales, Marketing, Service, Platform) with capability bars and a dashed dependency arrow from Single Customer View to Self-Service Portal.</desc>
 
   <defs>

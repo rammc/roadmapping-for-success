@@ -1,6 +1,6 @@
 # Roadmap Types
 
-The theory part of the session — short, opinionated, designed to be delivered in about 15 minutes from the front of the room.
+The theory part of the session – short, opinionated, designed to be delivered in about 15 minutes from the front of the room.
 
 ## What is a roadmap?
 
@@ -24,9 +24,9 @@ The theory part of the session — short, opinionated, designed to be delivered 
 
 > A roadmap that cannot change is a poster. A roadmap that changes transparently is a power tool.
 
-## Why this matters — the numbers
+## Why this matters – the numbers
 
-The Standish Group's Chaos Report puts roughly **24% of all IT projects in the "failed" bucket**, with a further "challenged" bucket sitting close to 50% across the long run. The trend has not improved meaningfully across the Waterfall, Agile, Scrum, SAFe waves of the last two decades. [Unverified — confirm exact current figure against the latest Standish CHAOS Report before quoting on stage.]
+The Standish Group's Chaos Report puts roughly **24% of all IT projects in the "failed" bucket**, with a further "challenged" bucket sitting close to 50% across the long run. The trend has not improved meaningfully across the Waterfall, Agile, Scrum, SAFe waves of the last two decades. [Unverified – confirm exact current figure against the latest Standish CHAOS Report before quoting on stage.]
 
 Roadmaps don't fix delivery on their own. But every failed programme we have personally seen had the same three symptoms: scope creep, mismanaged dependencies, and stakeholders who had forgotten *why* the work was being done. A good roadmap is the cheapest insurance against all three.
 
@@ -78,22 +78,22 @@ Every team in the room recognises a version of this from their own working life.
 
 > See `examples/roadmap-anti-pattern.svg`.
 
-## Business vs Technology — the traceability rule
+## Business vs Technology – the traceability rule
 
 Frame the Business Capability roadmap and the Technology System roadmap along the **Salesforce Well-Architected framework** (pillars: Trusted, Easy, Adaptable).
 
-- The **Business Capability roadmap** keeps the "why" visible. It serves the *Intentional* and *Adaptable* qualities — stakeholders can see what the organisation is investing in and why, and can re-prioritise without losing the thread.
+- The **Business Capability roadmap** keeps the "why" visible. It serves the *Intentional* and *Adaptable* qualities – stakeholders can see what the organisation is investing in and why, and can re-prioritise without losing the thread.
 - The **Technology System roadmap** carries sequencing, dependencies, and the long-lived architecture decisions that make change cheap later. It serves the *Resilient* and *Adaptable* qualities.
 
 The rule that disciplines scope creep: **every technical initiative must trace back to at least one business capability.** If a line on the system roadmap has no parent in the capability roadmap, it is either a hidden technical debt item (call it that and put it in its own lane) or it should not be there at all.
 
-[Unverified] — confirm current Well-Architected pillar wording at https://architect.salesforce.com/well-architected before finalising the spoken framing. The pillars and quality groupings change over time; do not quote them from memory.
+[Unverified] – confirm current Well-Architected pillar wording at https://architect.salesforce.com/well-architected before finalising the spoken framing. The pillars and quality groupings change over time; do not quote them from memory.
 
 ## What this means for facilitators
 
 When you run Block 1 of the session, you are not just teaching the four types. You are setting up two questions the teams will have to answer themselves in Block 2:
 
-1. *Which roadmap are you actually building?* (Most teams default to a mix — push them to pick one.)
+1. *Which roadmap are you actually building?* (Most teams default to a mix – push them to pick one.)
 2. *Where does each line on it come from in Victory's strategy?* (No orphans.)
 
 Then in Block 3, the distractors test whether the answers hold up when the world moves.
